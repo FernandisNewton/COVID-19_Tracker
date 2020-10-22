@@ -1,0 +1,35 @@
+.infobox{
+    flex: 1;
+    border-radius: 15px !important;
+}
+
+.infobox:not(:last-child){
+    margin-right: 15px;
+}
+
+.infobox__cases--green{
+    color: rgb(0, 219, 0) !important;
+}
+@media (max-width:458px){
+    .infobox:not(:last-child){
+        margin-right:  0;
+    }
+}
+.infobox__title{
+     font-size: 1rem ;
+     
+}
+
+.infobox__cases{
+    color:#cc1034;
+    font-weight: 600;
+    font-size: 1.75rem;
+    
+    
+}
+.infobox__total{
+    color:#6c757d;
+    font-weight: 700 !important;
+    font-size: 1.2rem !important;
+    margin-top: 8px !important;
+}
